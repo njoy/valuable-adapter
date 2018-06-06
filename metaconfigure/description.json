@@ -1,0 +1,39 @@
+{
+  "file extension": {
+    "header files": [
+      "h++",
+      "hxx",
+      "hpp",
+      "hh",
+      "h"
+    ],
+    "implementation files": [
+      "c++",
+      "cxx",
+      "cpp",
+      "cc",
+      "C"
+    ]
+  },
+  "header files": [
+    "src/valuable/include/value-ptr.hpp"
+  ],
+  "ignore pattern": "$^",
+  "implementation files": [
+    "src/valuable/tests/main.cpp"
+  ],
+  "include path": "src/valuable/include",
+  "initialized": true,
+  "is external project": true,
+  "language": "c++",
+  "name": "variant-adapter",
+  "standards": [
+    "c++98",
+    "c++11",
+    "c++14"
+  ],
+  "strict": true,
+  "test pattern": "test$",
+  "tests": {},
+  "update": false
+}
