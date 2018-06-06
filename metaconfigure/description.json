@@ -26,7 +26,8 @@
   "initialized": true,
   "is external project": true,
   "language": "c++",
-  "name": "variant-adapter",
+  "standard": "c++14",
+  "name": "valuable-adapter",
   "standards": [
     "c++98",
     "c++11",
