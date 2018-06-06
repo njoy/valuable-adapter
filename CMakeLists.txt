@@ -34,3 +34,6 @@ message( STATUS "Git current branch: ${GIT_BRANCH}" )
 message( STATUS "Git commit hash: ${GIT_HASH}" )
 message( STATUS "" )
 message( STATUS "-----------------------------------------------------------" )
+
+add_library( variant-adapter INTERFACE )
+target_include_directories( variant-adapter INTERFACE src/valuable/include )
